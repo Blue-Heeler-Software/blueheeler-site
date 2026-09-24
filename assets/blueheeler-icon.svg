@@ -1,0 +1,5 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='512' height='512'><rect width='512' height='512' fill='#000000'/><g transform='translate(256 256) scale(1.13) translate(-256 -256)'><g stroke="#2E9BFF" fill="none" stroke-linecap="round" stroke-dasharray="1.5 17">
+<path d="M360 196 A 80 80 0 0 1 360 316" stroke-width="17" opacity=".95"/>
+<path d="M384 168 A 108 108 0 0 1 384 344" stroke-width="14" opacity=".6"/>
+<path d="M408 142 A 136 136 0 0 1 408 370" stroke-width="11" opacity=".4"/>
+</g><path fill-rule='evenodd' fill='#2E9BFF' d='M168 128 L262 128 L330 178 L300 230 L262 256 L300 282 L346 322 L300 360 L268 382 L168 382 Z M214 168 L214 240 L286 204 Z M214 268 L214 372 L300 320 Z'/></g></svg>

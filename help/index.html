@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Blue Heeler help: scanning, alerts, Car Hunt, Tripwire, Pack, permissions, privacy and troubleshooting.">
+  <meta name="theme-color" content="#070a0f">
+  <title>Blue Heeler Help</title>
+  <link rel="canonical" href="https://blueheeler.bhsoftware.net/help/">
+  <link rel="icon" href="../assets/blueheeler-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#help">Skip to help</a>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Primary">
+      <a class="brand" href="./"><img src="../assets/blueheeler-icon.svg" alt=""><span><span class="brand-parent">Blue Heeler Software</span><span class="brand-name">Blue Heeler</span></span></a>
+      <div class="nav-links"><a href="#start">Quick start</a><a href="#troubleshooting">Troubleshooting</a><a href="mailto:xredux@protonmail.com">Contact</a><a href="https://play.google.com/store/apps/details?id=com.kosheen.antistalker">Get the app</a><a class="nav-pill" href="https://blue-heeler-software.github.io/privacy/blueheeler/">Privacy</a></div>
+    </nav>
+  </header>
+
+  <main id="help">
+    <div class="privacy-hero">
+      <div class="shell">
+        <div class="eyebrow">Blue Heeler support</div>
+        <h1>Help centre</h1>
+        <p>Learn what the home screen means, investigate a signal, set up optional tools, and understand the limits of radio-based detection.</p>
+      </div>
+    </div>
+
+    <div class="help-layout shell">
+      <aside class="help-nav" aria-label="Help topics">
+        <strong>On this page</strong>
+        <a href="#start">Quick start</a>
+        <a href="#pro">Free and Pro</a>
+        <a href="#screen">Home screen</a>
+        <a href="#alerts">Alerts and cards</a>
+        <a href="#modes">Investigation modes</a>
+        <a href="#pack">Pack</a>
+        <a href="#drones">Drone Remote ID</a>
+        <a href="#permissions">Permissions</a>
+        <a href="#troubleshooting">Troubleshooting</a>
+        <a href="#safety">Safety and limits</a>
+        <a href="#faq">FAQ</a>
+      </aside>
+
+      <div class="help-content">
+        <section class="help-section" id="start">
+          <h2>Quick start</h2>
+          <p class="help-lead">Blue Heeler becomes useful over time. It watches for nearby Bluetooth and Wi-Fi broadcasts, then raises signals that repeatedly appear or match a supported tracker pattern.</p>
+          <ol class="steps-list">
+            <li><strong>Allow Nearby devices.</strong> Bluetooth scanning cannot start without it. Allow notifications so alerts reach you while the app is in the background. Approximate location is optional.</li>
+            <li><strong>Leave the scanner running.</strong> One sighting is usually ordinary. Repeated sightings across rolling windows are more useful.</li>
+            <li><strong>Watch Alerts, not Seen.</strong> Seen counts normal nearby electronics too. Alerts is the smaller set that deserves review.</li>
+            <li><strong>Tap a card before acting.</strong> Review why it was flagged, the first/last sighting, signal trend, and device family.</li>
+          </ol>
+          <div class="callout">Blue Heeler does not require a cloud account. Tracker observations and classifications are processed on your phone.</div>
+        </section>
+
+        <section class="help-section" id="pro">
+          <h2>Free and Pro</h2>
+          <p>Scanning, alerts, Car Hunt, Fox Hunt, Tripwire, trigger strings, sensitivity and Turn and Burn are free. Pro is a one-time purchase through Google Play, with no subscription. It adds alert history across days, log Save and Share, AI Triage, Pack multi-phone scanning, camera-alert capture and Granular Buckets.</p>
+          <p>Buy Pro from Settings, where Google Play shows the price for your country. On a new phone signed in to the same Google account, tap Restore to get it back without paying again.</p>
+        </section>
+
+        <section class="help-section" id="screen">
+          <h2>Reading the home screen</h2>
+          <div class="help-grid">
+            <div class="help-card"><b>Seen</b><p>Every distinct nearby signal observed in the current session. Most are harmless phones, earbuds, TVs, cars, and access points.</p></div>
+            <div class="help-card"><b>Alerts</b><p>Signals whose behaviour or known identity crossed the current alert threshold. Tap an alert card to see why.</p></div>
+            <div class="help-card"><b>Sens</b><p>How weak a signal can be and still make the list. Tap it to cycle Relaxed, Normal and Paranoid. Paranoid shows the most, including distant devices. Known trackers, flagged devices and trigger-string matches stay listed at every setting.</p></div>
+            <div class="help-card"><b>Scanning</b><p>To confirm Blue Heeler is really scanning, check for its ongoing notification. If the notification says your scan session limit was reached, tap Keep scanning.</p></div>
+            <div class="help-card"><b>Radar</b><p>A rough signal-strength view, not a measured map. Nearer the centre generally means a stronger signal, not a guaranteed physical distance.</p></div>
+            <div class="help-card"><b>Sort controls</b><p>Threat prioritises risk signals. Recent, Signal, and Name offer different ways to review a busy environment.</p></div>
+          </div>
+          <h3>Top-row buttons</h3>
+          <p><strong>Car Hunt</strong> sweeps for trackers and powered devices close by, such as in a car. <strong>Tripwire</strong> learns what is around you, then alarms when something new arrives. <strong>Help</strong> opens the in-app guide. <strong>More</strong> holds Save log, Share log and AI Triage (all Pro), Sensitivity, Trigger strings, History (Pro) and Reset scan. <strong>Settings</strong> controls scanning and optional features. The Pack and Stop &amp; Burn buttons appear only when those features are switched on.</p>
+        </section>
+
+        <section class="help-section" id="alerts">
+          <h2>Alerts and device cards</h2>
+          <p>A device card combines identity, persistence, signal, and classification evidence. Treat the card as a lead, not a verdict.</p>
+          <div class="help-grid">
+            <div class="help-card"><b>SEPARATED</b><p>An AirTag or other Apple Find My device is broadcasting that it is away from its owner. That is the classic sign of a planted tracker, though it can also be someone’s lost item. Review it promptly and check Android’s unknown tracker alerts too. Other known trackers, such as Tile, SmartTag and Chipolo, show a TRACKER badge, which cannot tell whether they are away from their owner.</p></div>
+            <div class="help-card"><b>ROT + number</b><p>Blue Heeler associated multiple changing addresses with one likely device group. Rotation is common and is not proof of malicious intent.</p></div>
+            <div class="help-card"><b>5 min / first / last</b><p>The persistence window plus the first and latest observations help distinguish a passing device from a recurring one.</p></div>
+            <div class="help-card"><b>BLE / Wi-Fi and signal bar</b><p>The radio source and received strength. A longer bar usually means stronger reception, which often, but not always, means closer.</p></div>
+          </div>
+          <h3>Trust, flag, and beep</h3>
+          <p>Trust your own equipment so it stops raising alerts. Flag a device you are worried about: it stays near the top of the list and raises an alert when it is seen. Pin keeps a device in the list without extra alerts. Try beep appears only on known trackers and is best-effort. Most trackers, including AirTag, Tile and SmartTag, only beep for their registered owner, so expect it to fail on them. Blue Heeler cannot override owner protections.</p>
+        </section>
+
+        <section class="help-section" id="modes">
+          <h2>Investigation modes</h2>
+          <h3>Car Hunt</h3>
+          <p>Car Hunt lists every Bluetooth device it hears, with the strongest and closest (IN BAND) on top, and at the same time uses the phone’s magnetometer to sense powered electronics. Sweep the phone slowly along a car’s bodywork or a bag, pause between moves, and look for a steady stronger or weaker trend rather than one reading. Walls, metal, cars and people all bend the signal. Keep Car Hunt vibration off, because the motor disturbs the magnetic reading. The magnetic reading helps find powered devices but is not a tracker detector by itself. To follow one particular device, use Fox Hunt.</p>
+          <h3>Fox Hunt</h3>
+          <p>Open a device card and tap Find this device. The full-height meter shows that device’s live signal strength and flashes each time a packet arrives. Turn slowly: the direction where the signal peaks is the likely direction of the device. Antenna calibration uses a Bluetooth device you can see to learn how your phone’s reception changes as you turn, and corrects the meter for the rest of that hunt. It does not turn signal strength into an exact distance.</p>
+          <h3>Tripwire</h3>
+          <p>Tripwire records a baseline (five minutes by default), then alerts when something new enters the selected signal range. Choose Ignore, Low, High or Alarm for how loud a trip is, and adjust squelch for the environment. Rebuild the baseline after moving rooms or changing locations.</p>
+          <h3>Turn and Burn</h3>
+          <p>Turn and Burn is free and off by default. When you switch it on in Settings, a flame button in the top bar takes the place of Stop scanner. Tapping it and confirming Stop &amp; Burn stops scanning, overwrites and deletes all of Blue Heeler’s data on the phone (settings, trusted and flagged devices, Pack key, history and logs), then closes the app. It is best-effort: phone storage can keep old copies of data, so for the strongest result follow it with a factory reset. It does not remove logs you saved to Downloads or shared with other apps, it does not uninstall the app, and it does not clear Android’s own records.</p>
+        </section>
+
+        <section class="help-section" id="pack">
+          <h2>Pack: scan together (Pro)</h2>
+          <p>Pack lets two or more of your phones scan together. Each phone broadcasts a small Bluetooth message with what it is seeing, so the Pack can compare readings and narrow down where a tracker is. Pack is a Pro feature and is off by default. Every phone in the Pack needs Pro and Pack Scan switched on.</p>
+          <ol class="steps-list">
+            <li>Open Settings and enable Pack Scan on each participating phone.</li>
+            <li>Set the same Pack key on every phone. Type it, or tap Show QR on one phone and Scan QR on the others. Without a key the Pack runs unsigned and trust cannot be shared.</li>
+            <li>Check that Pack members appear on the radar before relying on shared observations.</li>
+            <li>Enable “Share trust across the pack” only if you want a trusted/flagged choice copied between authenticated Pack devices.</li>
+          </ol>
+          <div class="callout warning">Pack messages are signed with your Pack key but not encrypted. Anyone nearby with a Bluetooth scanner can read them, including partial addresses of the devices your phone is alerting on and, if Blue Heeler has Android location permission, your phone’s approximate location. Turn Pack off when that matters. Pack also cannot give an exact position: keep the phones apart, run Antenna calibration in Settings, and treat the combined readings as guidance.</div>
+        </section>
+
+        <section class="help-section" id="drones">
+          <h2>Drone Remote ID</h2>
+          <p>Many newer drones broadcast Remote ID (also called Open Drone ID), a public signal that identifies the aircraft, and some countries require it. When Blue Heeler hears one of these broadcasts over Bluetooth, it raises a “Drone overhead (Remote ID)” alert and the card shows a DRONE badge, with the drone type and serial when the broadcast includes them.</p>
+          <div class="callout warning"><strong>Important limit:</strong> Blue Heeler cannot see analogue FPV video or control links, Remote ID sent only over Wi-Fi, or drones that broadcast nothing. An alert cannot tell you who is flying, why, or exactly where the drone is.</div>
+          <p>This is an awareness feature only. Blue Heeler does not control, jam or interfere with any aircraft. If a drone worries you, confirm what you are seeing and follow local guidance.</p>
+        </section>
+
+        <section class="help-section" id="permissions">
+          <h2>Permissions and privacy</h2>
+          <div class="help-grid">
+            <div class="help-card"><b>Nearby Bluetooth and Wi-Fi</b><p>Required for radio scanning. Android may limit results when system scanning is disabled.</p></div>
+            <div class="help-card"><b>Notifications and vibration</b><p>Used for foreground scanning status and alerts while you are not looking at the app.</p></div>
+            <div class="help-card"><b>Approximate location</b><p>Optional. Android asks for it with the other permissions when you first start, and scanning works without it. It is used for GPS co-traveller detection, spotting devices you keep seeing in one place, noticing when you have stopped moving, and your position in a Pack. Precise location is never requested.</p></div>
+            <div class="help-card"><b>Camera</b><p>Optional and on demand. Used to scan a Pack QR code; Blue Heeler does not record video.</p></div>
+            <div class="help-card"><b>Notification access</b><p>Optional, Pro. Camera-alert capture reads notifications only from the security-camera apps you tick, and keeps them on your phone.</p></div>
+            <div class="help-card"><b>Internet</b><p>Present only because Google Play Billing needs it to load the Pro price and handle your purchase. Blue Heeler has no server and its own code makes no network calls. Your radio observations are not uploaded.</p></div>
+          </div>
+          <p>For the complete data-handling explanation, read the <a href="https://blue-heeler-software.github.io/privacy/blueheeler/">privacy policy</a>.</p>
+        </section>
+
+        <section class="help-section" id="troubleshooting">
+          <h2>Troubleshooting</h2>
+          <h3>Scanning will not start, or has stopped</h3>
+          <ul><li>Confirm Bluetooth and Wi-Fi scanning are enabled in Android.</li><li>Open Android App info → Permissions and allow Nearby devices.</li><li>Disable battery restrictions for Blue Heeler if background scanning stops.</li><li>By default Blue Heeler pauses after 8 hours of scanning and waits for you to tap Keep scanning in its notification. You can change this in Settings under Scan session length.</li><li>Return to Blue Heeler and restart the scan.</li></ul>
+          <h3>No devices, or far fewer than expected</h3>
+          <ul><li>Wait through a complete scan window; many devices advertise intermittently.</li><li>Move away from dense interference and retest.</li><li>Check that Android has not revoked Nearby-device permission.</li><li>Remember that some trackers stop broadcasting or use signals Blue Heeler cannot classify.</li></ul>
+          <h3>Too many alerts</h3>
+          <ul><li>Tap Sens to step down to Normal or Relaxed.</li><li>Trust your own headphones, watches, vehicles, and home equipment.</li><li>After leaving a crowded place, open More and tap Reset scan.</li><li>Use persistence and movement evidence instead of one strong signal.</li></ul>
+          <h3>Pack member missing</h3>
+          <ul><li>Keep both phones unlocked during initial setup.</li><li>Confirm every phone has Pro, Pack Scan is on, and the Pack key is identical.</li><li>Make sure Bluetooth permission is granted on both phones.</li><li>Move the phones within normal Bluetooth range, then switch Pack Scan off and on again.</li></ul>
+        </section>
+
+        <section class="help-section" id="safety">
+          <h2>Safety and limits</h2>
+          <p>Radio conditions are noisy. Walls, bodies, metal, phone antennas, traffic, and other transmitters can change readings. Some legitimate devices persist or rotate addresses.</p>
+          <p><strong>A quiet screen is not an all clear.</strong> Some trackers broadcast rarely or look like ordinary devices, trackers that use only GPS and mobile data send nothing Blue Heeler can hear, and a paused or stopped scan sees nothing at all. No alerts does not mean no tracker.</p>
+          <div class="callout warning"><strong>If you feel in immediate danger:</strong> move to a safe public place, contact local emergency services or a trusted person. Do not confront the person you suspect.</div>
+          <p>Use Blue Heeler alongside Android’s built-in unknown-tracker alerts and the safety instructions supplied by Apple, Google, Tile, Samsung, or the relevant tracker maker. Keep screenshots or saved logs only when it is safe to do so (saving and sharing logs needs Pro; screenshots work on the free version). If you find a tracker, think before you disable or destroy it: it may be evidence, and the person may notice when it stops reporting. Police or a family violence service can help you decide what to do.</p>
+        </section>
+
+        <section class="help-section" id="faq">
+          <h2>Frequently asked questions</h2>
+          <div class="faq">
+            <details><summary>Does an alert prove someone is tracking me?</summary><p>No. It means Blue Heeler found a signal pattern worth reviewing. Confirm it using movement, persistence and platform safety alerts, and search physically only when it is safe.</p></details>
+            <details><summary>If there are no alerts, am I safe?</summary><p>Not necessarily. A quiet screen is not an all clear. Blue Heeler only hears trackers that broadcast over Bluetooth or Wi-Fi while it is scanning, and some trackers are built to avoid notice. If you are worried, keep scanning over time, use Android’s unknown tracker alerts too, and talk to police or a support service.</p></details>
+            <details><summary>Why does Seen contain so many devices?</summary><p>Modern environments are full of Bluetooth and Wi-Fi broadcasts. Seen is an observation count; Alerts applies additional rules to highlight a smaller set.</p></details>
+            <details><summary>Can Blue Heeler locate a tracker exactly?</summary><p>No. Car Hunt and Fox Hunt show relative signal changes. They cannot provide a guaranteed direction, distance, or location.</p></details>
+            <details><summary>Can Blue Heeler make every tracker beep?</summary><p>No. The command is best-effort. Tracker firmware, ownership protections, connection state, and supported protocols determine whether it works.</p></details>
+            <details><summary>Does Blue Heeler upload my scans?</summary><p>No. Blue Heeler has no server and does not upload your radio observations. Data leaves your phone only when you choose: Share log and AI Triage hand the log to an app you pick, and Pack broadcasts Pack messages over Bluetooth to phones nearby. Google Play handles the Pro purchase under Google’s own privacy policy.</p></details>
+            <details><summary>How do I export a session?</summary><p>Saving and sharing logs are Pro features. Open More and choose Save log to Downloads or Share log. AI Triage shares the same log, formatted for an AI assistant you pick; Blue Heeler does not send it anywhere itself. Whatever app you share with receives the log, so check it before you send. A log saved to Downloads stays there until you delete it, even after Turn and Burn.</p></details>
+          </div>
+          <h3>Still need help?</h3>
+          <p>Email <a href="mailto:xredux@protonmail.com">xredux@protonmail.com</a> with your Android version, Blue Heeler version, phone model, the feature involved, and what you expected to happen. Do not send precise location or identifying scan logs unless you deliberately choose to.</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="footer-row shell"><span>© 2026 Blue Heeler Software</span><div class="footer-links"><a href="https://play.google.com/store/apps/details?id=com.kosheen.antistalker">Get the app</a><a href="mailto:xredux@protonmail.com">Contact</a><a href="https://blue-heeler-software.github.io/privacy/blueheeler/">Privacy</a></div></div></footer>
+</body>
+</html>
